@@ -7,20 +7,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>start</title>
     <script src="../js/vue.js"></script>
+    <style>
+
+    </style>
 </head>
 
 <body>
-    <div id='root'>
-        <h1>hello,{{school}}</h1>
+
+    <div id="root">
+        姓: <input type="text" v-model="firstName"><br>
+        名: <input type="text" v-model="lastName"><br>
+        <span>全名：？？？</span><br>
     </div>
-    <script>
-        const v = new Vue({
-            el: '#root',
-            data: {
-                school: 'zizizizi'
-            }
-        })
-    </script>
+        
+    <script src="../js/index.js"></script>
 </body>
 
 </html>
